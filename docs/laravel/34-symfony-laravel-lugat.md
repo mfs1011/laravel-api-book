@@ -1,6 +1,6 @@
 # 34 — Symfony → Laravel lug'ati
 
-[← Oldingi: Keyingi qadamlar](33-keyingi-qadamlar.md) · [Mundarija](README.md)
+[← Oldingi: Keyingi qadamlar](33-keyingi-qadamlar.md) · [Mundarija](README.md) · [Keyingi: Real-time →](35-realtime-broadcasting.md)
 
 ---
 
@@ -179,4 +179,4 @@ SendWelcomeEmail::dispatch($user);
 
 ---
 
-[← Oldingi: Keyingi qadamlar](33-keyingi-qadamlar.md) · [Mundarija](README.md)
+[← Oldingi: Keyingi qadamlar](33-keyingi-qadamlar.md) · [Mundarija](README.md) · [Keyingi: Real-time →](35-realtime-broadcasting.md)
