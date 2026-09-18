@@ -182,6 +182,25 @@ class PhotoService
 
 Bu — `when()->needs()->give()` ning qisqa ko'rinishi va ko'p hollarda o'qish osonroq.
 
+Interfeysni implementatsiyaga bog'lashni ham atribut bilan e'lon qilish mumkin — bunda provider'ga qator yozish shart emas:
+
+```php
+use Illuminate\Container\Attributes\Bind;
+use Illuminate\Container\Attributes\Singleton;
+
+#[Bind(EskizSmsSender::class)]
+interface SmsSender {}
+
+// faqat ma'lum muhitda boshqa implementatsiya:
+#[Bind(FakeSmsSender::class, environments: ['local', 'testing'])]
+interface SmsSender {}
+
+#[Singleton]
+class PaymentGateway {}
+```
+
+Mavjud atributlar: `#[Bind]`, `#[Singleton]`, `#[Scoped]`, `#[Give]`, `#[Config]`, `#[DB]`, `#[Storage]`, `#[Auth]`, `#[CurrentUser]`, `#[RouteParameter]`, `#[Log]`, `#[Cache]`, `#[Tag]`.
+
 ---
 
 ## Tagging (bir turdagi xizmatlar guruhi)
