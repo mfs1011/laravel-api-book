@@ -40,6 +40,19 @@ Talablar:
    (b) to'liq PHP misollarini `php -l` bilan sintaksis xatosiga tekshir, (c) natijani hisobot qilib ayt.
 8. Har bir bob tuzilmasi: tushuncha → nega shunday → kod → Laravel bilan solishtirish (jadval)
    → tipik xatolar → Amaliyot → Rasmiy hujjat → navigatsiya.
+9. MANBA QOIDASI: xotiradan yozma. Symfony uchun Boost/search-docs kabi vosita YO'Q, shuning uchun
+   har bir mavzuni https://symfony.com/doc/current/... dan WebFetch bilan o'qib tekshir.
+   API shubhali bo'lsa vendor/symfony/... manbasida klass va metod borligini grep bilan tasdiqla.
+   Tasdiqlamagan narsani "ishlaydi" deb yozma — versiyani ayt yoki ogohlantirish qo'y.
+10. Kod bloklarining tili to'g'ri belgilansin: PHP uchun ```php, terminal buyruqlari uchun ```shell,
+    konfiguratsiya uchun ```yaml, Twig uchun ```twig. Shell buyrug'ini php blokiga yozma.
+11. Hajm va uslub: har bob ~700-1000 so'z + kod. Jadvallardan foydalanib solishtir.
+    Ortiqcha suv quyma, lekin sababini tushuntirmasdan ham o'tma.
+    Har bobda kamida bitta "tipik xato va to'g'ri yechim" jadvali bo'lsin.
+12. Sifat mezoni: "shu qo'llanmani o'qigan odam production Symfony loyihasini qila oladimi?"
+    Oxirgi bobda yakuniy production tekshiruv ro'yxati (checklist) bo'lsin.
+13. Ishni bosqichma-bosqich qil: avval README mundarija, keyin boblarni tartib bilan yoz.
+    Har 5-6 bobdan keyin havolalar va php -l tekshiruvini qayta yurgiz.
 
 Boblar ketma-ketligi (shu tartibda, kerak bo'lsa moslashtir):
 
@@ -103,16 +116,15 @@ AI attribution bo'lmasin, PR'ni men aytmagunimcha ochma.
 
 ---
 
-## Bu qo'llanma (Laravel versiyasi) qanday yozilgan — namuna sifatida
+## Namuna: shu repodagi Laravel qo'llanmasi
 
-`docs/laravel/` da 41 fayl bor. Symfony versiyasi ham xuddi shu qolipda bo'lishi kerak:
+`docs/laravel/` da 41 fayl bor — Symfony versiyasi aynan shu qolipda bo'lishi kerak.
+Agar Claude "qanday ko'rinishda bo'lsin?" deb so'rasa, unga namuna sifatida
+`docs/laravel/README.md` va `docs/laravel/16-eloquent-asoslari.md` fayllarini ko'rsating
+(yoki GitHub havolasini bering — repo public).
 
-- Har bob: tushuncha → "nega bunday?" → kod → solishtirish jadvali → tipik xatolar → Amaliyot → rasmiy havola → navigatsiya
-- Uzunlik: bob boshiga ~700–1000 so'z + kod
-- Kod misollari haqiqiy muhitda tekshirilgan (`php -l`, tinker/console)
-- Rasmiy hujjatga aniq havolalar, versiya raqami bilan
-
-Sifat mezoni: "o'qib chiqqan odam production loyiha qila oladimi?" — 40-bobdagi yakuniy tekshiruv ro'yxati shu savolga javob beradi.
+Muhim: yuqoridagi PROMPT bloki **o'zi yetarli** bo'lishi uchun sifat mezonlari
+uning ichiga (9–13-bandlar) ko'chirilgan. Faqat shu blokni nusxalasangiz ham bo'ladi.
 
 ## Eslatmalar
 
