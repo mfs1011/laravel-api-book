@@ -107,7 +107,7 @@ Bu loyihadagi muhim qatorlar:
 APP_NAME=Laravel
 APP_ENV=local          # local | production | testing
 APP_KEY=base64:...     # key:generate qo'yadi
-APP_DEBUG=true         # productionда ALBATTA false
+APP_DEBUG=true         # productionda ALBATTA false
 APP_URL=http://localhost:8000
 
 DB_CONNECTION=sqlite   # mysql | pgsql | sqlsrv | sqlite
