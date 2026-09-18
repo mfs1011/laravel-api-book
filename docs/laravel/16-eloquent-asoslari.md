@@ -244,7 +244,7 @@ Post::published()->ofAuthor($user)->latest()->paginate();
 
 **Global scope** — barcha so'rovlarga avtomatik qo'shiladi:
 
-```php
+```shell
 php artisan make:scope PublishedScope
 ```
 

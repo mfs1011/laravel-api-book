@@ -94,6 +94,17 @@ Boblarni **tartib bilan** o'qing. Har bir bob oldingisiga tayanadi.
 | 33 | [Keyingi qadamlar](33-keyingi-qadamlar.md) | Ekotizim: Horizon, Telescope, Octane... |
 | 34 | [Symfony → Laravel lug'ati](34-symfony-laravel-lugat.md) | Tez ma'lumotnoma jadvali |
 
+### VII qism — Production darajasi (35–40)
+
+| № | Bob | Nima o'rganasiz |
+| --- | --- | --- |
+| 35 | [Real-time: Broadcasting va WebSocket](35-realtime-broadcasting.md) | Reverb, Echo, private/presence kanallar |
+| 36 | [Ko'p tillilik va mintaqaviylik](36-koptillilik-va-mintaqa.md) | `lang/`, `__()`, vaqt zonalari, pul formati |
+| 37 | [Ilg'or Eloquent va unumdorlik](37-ilgor-eloquent-va-unumdorlik.md) | Custom cast, JSON ustun, qulflar, indeks, multi-tenancy |
+| 38 | [API pro darajasi](38-api-pro.md) | Idempotentlik, ETag, webhook, OpenAPI, versiyalash |
+| 39 | [Arxitektura: loyiha o'sganda](39-arxitektura.md) | Action/DTO, enum holat mashinasi, modulli tuzilma, paket |
+| 40 | [CI/CD, Docker va production](40-cicd-va-production.md) | GitHub Actions, Docker, deploy, monitoring, yakuniy ro'yxat |
+
 ---
 
 ## Qanday o'rganish kerak (amaliy maslahat)
@@ -102,5 +113,8 @@ Boblarni **tartib bilan** o'qing. Har bir bob oldingisiga tayanadi.
 2. Har bobdagi **"Amaliyot"** bo'limini bajaring — ular bir-biriga bog'langan: 31-bobdagi loyiha shu mashqlardan yig'iladi.
 3. Tushunmagan joyda **`php artisan tinker`** ochib tajriba qiling.
 4. Rasmiy hujjatni **yon oyna**da ochib turing: <https://laravel.com/docs/13.x>.
+
+**I–VI qismlar** — noldan mustaqil ishlay oladigan daraja.
+**VII qism (35–40)** — real production loyihalar uchun zarur bo'lgan qolgan mavzular.
 
 Boshlash: [01 — Kirish: Laravel nima va nega →](01-kirish.md)
